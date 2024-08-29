@@ -7,7 +7,7 @@ p {
 }
 
 body {
-  /* background-image: url('manager.gif'); */
+  background-image: url("manager.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: Keeps the background fixed */
