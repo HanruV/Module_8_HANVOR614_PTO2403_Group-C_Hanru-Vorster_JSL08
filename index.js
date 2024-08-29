@@ -14,8 +14,10 @@ class BankBranch {
   }
 }
 
-const BranchA = new BankBranch(`552 Garsfontein, Pretoria`);
-const BranchB = new BankBranch(`777 Glenwood, Cape Town`);
+const branchA = new BankBranch(`552 Garsfontein, Pretoria`);
+const branchB = new BankBranch(`777 Glenwood, Cape Town`);
 
-BranchA.getBranchInfo();
-BranchB.getBranchInfo();
+branchA.getBranchInfo();
+branchB.getBranchInfo();
+
+console.log(branchA === branchB);
